@@ -1,0 +1,97 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 0;
+    .headerLeft{
+        color:#000;
+        font-size: 26px;
+        font-weight:600;
+    }
+    .headerSearch{
+        background: #fff ;
+        border:none;
+        height: 34px;
+        flex:1;
+        margin:0 15px;
+        border-radius: 20px;
+    }
+    .searchClose{
+        width: 34px;
+        height:34px;
+        background: url('../../assets/images/search-close.png') center bottom /  26px 26px no-repeat;
+    }
+    .headerIcon{
+        width:30px;
+    }
+}
+.carousel{
+    border-radius: 10px;
+    overflow: hidden;
+}
+.categories{
+    display: flex;
+    margin-top:20px;
+    .categoriesItem{
+        flex:1;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        .icon{
+            width:28px;
+            margin-bottom:5px;
+        }
+        .itemName{
+            color:#8b8b8b
+        }
+    }
+}
+.songList{
+    margin-top: 30px;
+    .topBar{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 20px;
+        .listTitle{
+            color:#000;
+            font-size: 20px;
+            font-weight: 600;;
+        }
+        .viewMore{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color:#8b8b8b
+        }
+    }
+    .contentItem{
+        padding-right:20px;
+        .item{
+            width:112px;
+            height:112px;
+            position: relative;
+            border-radius: 10px;
+            overflow: hidden;
+            .image{
+                position: absolute;
+                top:0;
+                left:0;
+                width:100%;
+                height:100%;
+            }
+            .playIcon{
+                position: absolute;
+                bottom:8px;
+                right:5px;
+                width:25px;
+                height:25px;
+                background: url('../../assets/images/play.png') center center/100% 100% no-repeat;
+            }
+        }
+        .title{
+            text-align: left;
+        }            
+    }
+}

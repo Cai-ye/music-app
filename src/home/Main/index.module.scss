@@ -1,0 +1,52 @@
+.container{
+    padding:10px 10px 60px;
+}
+.tabbar{
+    position: fixed;
+    bottom:0;
+    width:100%;
+    height:60px;
+    line-height: 60px;
+    z-index:9;
+    background: #fff;
+}
+.music_active{
+    width: 40px;
+    height: 38px;
+    background: url('../../assets/images/music_active.png') center bottom /  33px 33px no-repeat;
+}
+.music{
+    width: 40px;
+    height:38px;
+    background: url('../../assets/images/music.png') center bottom /  33px 33px no-repeat;
+}
+.calendar_active{
+    width: 40px;
+    height:38px;
+    background: url('../../assets/images/calendar_active.png') center bottom /  33px 33px no-repeat;
+}
+.calendar{
+    width: 40px;
+    height:38px;
+    background: url('../../assets/images/calendar.png') center bottom /  33px 33px no-repeat;
+}
+.trends_active{
+    width: 40px;
+    height:38px;
+    background: url('../../assets/images/trends_active.png') center bottom /  33px 33px no-repeat;
+}
+.trends{
+    width: 40px;
+    height:38px;
+    background: url('../../assets/images/trends.png') center bottom /  33px 33px no-repeat;
+}
+.my_active{
+    width: 40px;
+    height:38px;
+    background: url('../../assets/images/my_active.png') center bottom /  33px 33px no-repeat;
+}
+.my{
+    width: 40px;
+    height:38px;
+    background: url('../../assets/images/my.png') center bottom /  33px 33px no-repeat;
+}
